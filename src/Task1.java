@@ -19,6 +19,10 @@ public class Task1 {
             a=a+1;
         }
     }
+        if(A.length() == 0)
+        {
+            a = 0;
+        }
     return a;
 }
     public static int VowelCounter(String A){
