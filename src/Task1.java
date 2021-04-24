@@ -56,17 +56,20 @@ public class Task1 {
     {
         for(int i=0;i<=A.length()-Sub.length();i++)
         {
-          for(int j=0;j<Sub.length();j++)
+            int j;
+          for(j=0;j<Sub.length();j++)
           {
             if(A.charAt(i+j)==Sub.charAt(j))
         {
-            return true;
-        }
-            else{
-                
-                break;
-            }
+            break;
             
+        }
+            if(j==Sub.length())
+            {
+                return true;
+            }
+                    
+           
           }
     }
         return false;
