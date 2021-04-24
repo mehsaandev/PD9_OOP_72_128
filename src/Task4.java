@@ -77,4 +77,8 @@ public static int StartIndex(String A,String Sub){
          }
         return f;
     }
-}//"Yes I have done the Specific Changes in the code BRO!!!!" "Is i Okay"
+   public static void setWordsSpacing(int spaces)
+   {
+       
+   }
+}
