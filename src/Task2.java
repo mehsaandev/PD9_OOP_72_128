@@ -10,6 +10,11 @@
  */
 public class Task2 {
 
+    /** This method converts the string to vertical character by character form
+     * 
+     * @param  normal 1 line String
+     * @return converted string to vertical character by character form
+     */
     public static String displayVertical(String horizontal) {
         String vertical = null;
         for (int i = 0; i < horizontal.length(); i++) {
