@@ -15,7 +15,10 @@ public class MyString {
     public void append(String string) {
         this.string = string;
     }
-
+    public MyString(String string)
+    {
+        this.string = string;
+    }
     public int numberOfLowerCase() {
         int a = 0;
         for (int i = 0; i < this.string.length(); i++) {
